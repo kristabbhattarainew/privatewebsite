@@ -33,7 +33,7 @@ a[href^="tel"]::before {
 
 li {
   margin-bottom: .5rem;
-   font-size: 15px;
+  font-size: 15px;
   letter-spacing: 2px;
   color: #01f3e3;
 }
