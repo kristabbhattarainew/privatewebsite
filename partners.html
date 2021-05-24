@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+	 crossorigin="anonymous" />
+	
+  <meta property="og:image" content="https://imgur.com/a/4dsqI7k">
+	 <meta name="theme-color" content="#14e8f5">
+	<meta name="description" content="Our official partners.">
+
+	<title>Partners - Kristab</title>
+	<link rel = "icon" href = "assets/profile.jpg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="partner.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+</head>
+<body>
+    
+    <div class="container">
+        <h2 class="text-center font-weight-bold">Our Partners</h2>
+        <section class="customer-logos slider">
+            <div class="slide"><a href="https://kristab.ml/orderit"><img src="assets/orderit.png" alt="logo"></a></div>
+            <div class="slide"><a href="https://kristab.ml/server"><img src="assets/evereststudio.png" alt="logo"></a></div>
+          
+        </section>
+    </div>
+
+    <p class="copy text-center font-weight-bold">᲼</p>
+    
+
+    <script>
+    
+    $(document).ready(function(){
+        $('.customer-logos').slick({
+            slidesToShow: 6,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            arrows: false,
+            dots: false,
+            pauseOnHover:false,
+            responsive: [{
+                breakpoint: 768,
+                setting: {
+                    slidesToShow:4
+                }
+            }, {
+                breakpoint: 520,
+                setting: {
+                    slidesToShow: 3
+                }
+            }]
+        });
+    });
+
+    </script>
+
+
+    <footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>kristab</h4>
+  	 			<ul>
+  	 				<li><a href="https://kristab.ml/">about me</a></li>
+  	 				<li><a href="https://kristab.ml/server">our discord server</a></li>
+  	 				<li><a href="https://kristab.ml/orderit">order it - discord bot</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>get help</h4>
+  	 			<ul>
+  	 				<li><a href="https://kristab.ml/links">links</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>programs</h4>
+  	 			<ul>
+  	 				<li><a href="https://kristab.ml/partners">partners</a></li>
+  	 				<li><a href="https://kristab.ml/sponsors">sponsors</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow me</h4>
+  	 			<div class="social-links">
+  	 				<a href="https://discord.gg/EZDfrer"><i class="fab fa-discord"></i></a>
+  	 				<a href="https://twitter.com/Kristab_Dev"><i class="fab fa-twitter"></i></a>
+  	 				<a href="https://github.com/kristabbhattarai"><i class="fab fa-github"></i></a>
+  	 			</div>
+          <k>&copy; 2021 Kristab</k>
+  	 		</div>
+  	 	</div>
+        
+  	 </div>
+     
+  </footer>
+
+</body>
+</html>
