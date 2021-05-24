@@ -1,42 +1,4 @@
-body{
-  margin: 0;
-  padding: 0;
-/*   background: url(assets/darkbg.png) no-repeat;
-  background-size: cover; */
-}
 
-a {
-   color: #bff301;
-   letter-spacing: 2px;
-  }
-
-h1{
-  font-size: 30px;
-  letter-spacing: 4px;
-  font-weight: 50;
-  color: #019ef3;
-  text-align: center;
-}
-
-
-a[href^="https"]::before {
-  content: "🔗 ";
-}
-
-a[href^="mailto"]::before {
-  content: "📧 ";
-}
-
-a[href^="tel"]::before {
-  content: "📞 ";
-}
-
-li {
-  margin-bottom: .5rem;
-  font-size: 15px;
-  letter-spacing: 2px;
-  color: #01f3e3;
-}
 body{
   margin: 0;
   padding: 0;
