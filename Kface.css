@@ -27,6 +27,8 @@ h2{
   /* padding: 10px; */
 }
 
+/* Footer */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body{
 	line-height: 1.5;
@@ -53,7 +55,7 @@ ul{
     padding: 70px 0;
 }
 .footer-col{
-   width: 25%;
+   width: 20%;
    padding: 0 15px;
 }
 .footer-col h4{
@@ -72,7 +74,7 @@ ul{
 	background-color: #e91e63;
 	height: 2px;
 	box-sizing: border-box;
-	width: 50px;
+	width: 70px;
 }
 .footer-col ul li:not(:last-child){
 	margin-bottom: 10px;
