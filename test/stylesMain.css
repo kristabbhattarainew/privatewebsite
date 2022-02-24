@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-color: rgb(24, 22, 22);
+    display: flex;
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(34, 34, 33);
+    position: fixed;
+}
+
+.header img {
+    position: fixed;
+    left: 20px;
+    top: 10px;
+    height: 30px;
+}
+
+.header h3 {
+    position: fixed;
+    top: auto;
+    left: 70px;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-family: "Poppins" sans-serif;
+    color: #face30;
+    font: 1em sans-serif;
+}
+
+
+.links p1 {
+    position: fixed;
+    top: 15px;
+    right: 250px;
+}
+
+.links p2 {
+    position: fixed;
+    top: 15px;
+    right: 150px;
+}
+
+.server-btn {
+    position: fixed;
+    top: 11px;
+    right: 30px;
+}
+
+.server-btn button {
+    width: 80px;
+    height: 30px;
+    border: 1;
+    border-color: #0c91cf;
+    border-radius: 10%;
+    background: none;
+    color: #0c91cf;
+    font-family: "Poppins";
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+a {
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: aqua;
+    font-family: "Poppins" sans-serif;
+}
+
+.box {
+    width: 360px;
+    /* height: 500px; */
+    margin: auto;
+    margin-top: 20%;
+    margin-left: 110%;
+    padding: 40px;
+    /* position: fixed; */
+    background-color: rgb(14, 13, 13);
+    /* padding: 40px;
+    margin: auto;
+    margin-top: 5%; */
+    text-align: center;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+    
+}
+
+.box-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: bold;
+    font-family: "Poppins" sans-serif;
+    color: #face30;
+}
+
+.box h5 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    
+}
+
+.box p {
+    text-align: center;
+}
+
+.box ul {
+    text-align: left;
+}
+
+.footer {
+    height: 200px;
+    width: 306%;
+    color: bisque;
+    background-color: rgb(31, 27, 27);
+    padding: 1.5px;
+    margin-top: 105px;
+    display: flex;
+    /* position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: -100; */
+
+}
+
+.footer h1 {
+    text-align: center;
+    padding: 10;
+    margin: auto;
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-family: "Poppins" sans-serif;
+    color: #face30;
+    font: 2em sans-serif;
+   
+}
+
+.footer h5 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    color: black;
+}
+
+
+
+.top-btn {
+    position: fixed;
+    top: 90%;
+    left: 95%;
+}
+
