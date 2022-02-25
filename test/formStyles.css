@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    background-color: rgb(20, 20, 20);
+}
+
+.frame {
+    background-color: rgb(0, 0, 0);
+    height: 600px;
+    width: 450px;
+    margin: auto;
+    margin-top: 3%;
+
+}
+
+form h1 {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #face33;
+    text-decoration: underline;
+}
+
+form p {
+    font-family: 'Poppins', sans-serif;
+    color: #face33;
+    margin: auto;
+    margin-left: 10px;
+}
+
+form p1 {
+    font-family: 'Poppins', sans-serif;
+    color: #face50;
+    margin: auto;
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.btn {
+    position: relative;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.btn .Submit {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    height: 30px;
+    color: rgb(21, 255, 0);
+    margin: auto;
+    background: none;
+    border: 1;
+    border-color: rgb(21, 255, 0);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn .Reset {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    height: 30px;
+    color: rgb(231, 39, 14);
+    margin: auto;
+    background: none;
+    border: 1;
+    border-color: rgb(231, 39, 14);
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.footer {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(31, 27, 27);
+    padding: 1.5px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.footer p {
+    color: #face33;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin: auto;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #face33;
+}
