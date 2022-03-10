@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Description" />
+
+    <title>Title</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+        <div class="wrapper">
+            <h2>Logo</h2>
+            <nav>
+              <a href="#">Home</a>
+              <a href="#">About</a>
+              <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form action="#" onsubmit="onFormSubmit()">
+
+            <h1>Login</h1>
+
+            <div class="input-section">
+                <p>Name</p>
+                <input type="text" id="name" />
+
+                <h5 id="invalid-name">*Name must be more than 3 characters.</h5>
+            </div>
+            <div class="input-section">
+                <p>Password</p>
+                <input type="password" id="psw"/>
+                <h5 id="invalid-password">*Password must be more than 6 characters.</h5>
+            </div>
+            <button onclick="onFormSubmit()">Submit</button>
+        </form>
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
